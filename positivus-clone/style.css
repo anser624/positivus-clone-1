@@ -1,0 +1,313 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.top-nav {
+  height: 10vh;
+}
+#gr {
+  padding-block: 2rem;
+    transition: all .2s ease;
+}
+.position-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.mt-5-3 {
+  margin-top: 8rem;
+}
+.top-nav-links a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 800;
+  padding: 1rem;
+  height: 10px !important;
+  border-radius: 10px;
+}
+.top-nav-links a:hover {
+  background-color: greenyellow;
+}
+.btn-1 {
+  border: 1px solid black;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 6px;
+}
+.btn-1:hover {
+  transition: 1.3s;
+  background-color: black;
+  color: #fff;
+}
+.h1-content {
+  font-size: 90px;
+  font-weight: 00;
+}
+.h1-content p {
+  font-size: 20px;
+}
+.btn-2 {
+  border: none;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 6px;
+  color: #fff;
+  background-color: black;
+}
+.btn-2:hover {
+  background-color: greenyellow;
+  color: black;
+}
+.cont-3 {
+  column-gap: 50px;
+}
+.con-4 h1 {
+  font-size: 2rem;
+  border-radius: 9px;
+  padding: 0px 5px;
+  background-color: #b9ff66;
+}
+.con-4 p {
+  font-weight: 700;
+}
+.cont-4-h3 h3 {
+  border-radius: 15px;
+  padding: 8px;
+  background-color: greenyellow;
+}
+.mt-0 {
+  margin-top: -7px !important;
+}
+.card1 {
+  box-shadow: 0rem 0.7rem black;
+  border: 1px solid black;
+  background-color: rgb(237, 235, 235);
+  border-radius: 20px;
+}
+.card2 {
+  box-shadow: 0rem 0.7rem black;
+  background-color: greenyellow;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.cont-5-h3 h3 {
+  border-radius: 15px;
+  padding: 5px;
+  background-color: white;
+}
+.anchor {
+  font-size: 25px;
+  color: black;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.hover-card:hover {
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  transform: translatey(-20px);
+}
+.card4 {
+  box-shadow: 0rem 0.7rem black;
+  border: 1px solid black;
+  background-color: rgb(237, 235, 235);
+  border-radius: 20px;
+}
+.card3 {
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 20px;
+  box-shadow: 0rem 0.7rem black;
+}
+.card3 a {
+  color: #fff;
+}
+.card3 h3 {
+  border-radius: 15px;
+  padding: 5px;
+  background-color: white;
+}
+.card4 h3 {
+  border-radius: 15px;
+  padding: 5px;
+  background-color: greenyellow;
+}
+.card5 {
+  box-shadow: 0rem 0.7rem black;
+  border: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+.card5 h3 {
+  background-color: gainsboro;
+}
+.card6 {
+  border: 1px solid black;
+  box-shadow: 0rem 0.7rem black;
+  background-color: black;
+  border-radius: 20px;
+}
+.card6 a {
+  color: white;
+}
+.card6 h3 {
+  background-color: greenyellow;
+}
+.btn-6 {
+  font-size: 25px;
+  background-color: black;
+  color: white;
+}
+.btn-6:hover {
+  background-color: greenyellow;
+}
+.cont-6 {
+  border-radius: 20px;
+  width: 1500px;
+  height: 450px;
+  background-color: gainsboro;
+}
+.ps-5 {
+  padding-left: 110px !important;
+}
+.h1-6 {
+  text-align: center;
+  font-size: 2.5rem !important;
+}
+.bg-black {
+  border-radius: 2rem;
+  height: 50vh;
+}
+.row-p p {
+  line-height: 2;
+  font-size: 1rem;
+  font-weight: 300 !important;
+}
+.brdr-4 {
+  border-right: 2px white solid;
+}
+.w-100-6 {
+  width: 90%;
+}
+.brdr-rad {
+  height: 20vh !important;
+  border-radius: 2.5rem;
+  background-color: #b9ff66;
+  border: 1px solid black;
+  border-width: 1px 1px 5px;
+}
+.brdr-card {
+  border-radius: 3rem;
+  border: 1px solid black;
+  border-width: 1px 1px 5px;
+}
+.border-black {
+  border-radius: 3rem;
+  width: 100% !important;
+  border: 2.5px solid #000 !important;
+}
+.img-form{
+  margin-left: 6.3rem !important;
+}
+.mt-01{
+  margin-top: -4rem;
+  margin-bottom: 3.5rem;
+}
+.bg-gain{
+  border-radius: 1.5rem;
+  background-color: #ecf0f1;
+}
+.form-cont input,textarea{
+  width: 100%;
+  border: #000 1px solid;
+  border-width: 1px 1px 3px;
+  height: 7vh;
+  border-radius: 0.4rem;
+    margin-bottom: 2rem ;
+}
+.form-cont h2{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: justify;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  font-weight: 200;
+}
+textarea{
+  height: 40vh;
+}
+.bg-black-last{
+  border-radius: 2.5rem;
+  height: 70vh;
+  width: 95%;
+  background-color: #000; 
+}
+.top-nav-links-1 a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 1rem;
+  height: 10px !important;
+  border-radius: 10px;
+}
+.logo1 img{
+  filter: invert(1);
+}
+.last-form{
+  border-radius: 1.5rem;
+  background-color: #292a32;
+}
+.last-input{
+  border: #ffff 1px solid;
+  border-radius: 1.3rem;
+  margin-right: 1rem;
+  margin-top: 9px;
+  /* height: 11vh; */
+  padding: 1rem;
+  width: 50vh;
+  background: transparent;
+}
+.last-input ::placeholder{
+  color: #3b3c42;
+  padding: 1.5rem;
+}
+.btn-1-1 {
+  border: none;
+  background-color: #b9ff66;
+  border-radius: 14px;
+  cursor: pointer;
+  font-weight: 300;
+  font-size: 15px;
+  margin-top: 1rem;
+  width: 30vh;
+  height: 12vh;
+  }
+.btn-1-1:hover {
+  transition: 1.3s;
+  background-color: black;
+  color: #fff;
+}
+.last-content{
+  text-transform: capitalize;
+  text-align: justify;
+  font-weight: 200;
+  margin: 4rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.p-last{ 
+  border-radius: 0.7rem;
+  padding-top: 5px;
+  text-align: center;
+  background-color: #b9ff66;
+  width: 30%;
+  height: 5vh;
+  color: #000;
+}
